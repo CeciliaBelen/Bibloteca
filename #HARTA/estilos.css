@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+/* font-family: 'Cabin Sketch', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Quicksand', sans-serif; */
+body{
+    background-color: rgb(232, 215, 247);
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 3em;
+    color: rgb(94, 6, 90) !important;
+}
+@media all and (max-width:767px) {
+    .navbar-brand{
+        font-size: 3.5em;
+    }
+}
+.navbar-default{
+    background-color: rgb(209, 173, 219);
+    font-variant: small-caps;
+    font-weight: 600;
+    border-color: rgb(209, 173, 219);
+}
+.navbar-default .navbar-nav>li>a{
+    color: #000000 !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: rgb(145, 106, 156);
+    color: #fff;
+    font-weight: 800;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #000000;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgb(94,6,90);
+}
+.navbar-default .navbar-nav>.open>a{
+    background-color: rgb(209, 173, 219) !important;
+}
+.dropdown-menu{
+    background-color: rgba(209, 173, 219, 0.3) !important;
+}
+.dropdown-menu>li>a{
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+.dropdown-menu>li>a:hover{
+    background-color: rgba(145, 106, 156, 0.3) !important;
+    color: #fff;
+}
+.navbar-toggle{
+    background-color: rgb(209, 173, 219) !important;
+}
+/* .navbar-collapse{
+    border-top: 1px solid rgb(94, 6, 90) !important;
+} */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: rgb(94,6,90);
+}
+.form-control{
+    width: 98%;
+    color: #000;
+    border: 0.5px solid rgb(133, 0, 90);
+    border-radius: 18px;
+    margin: auto !important;
+}
+.btn-default{
+    border-color: rgb(133, 0, 90) !important;
+    border-radius: 9px;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 2px;
+}
